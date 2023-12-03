@@ -71,6 +71,7 @@ else {
 		pstmt.executeUpdate();
 	}
 	}
+
 	if (rs != null)
 		rs.close();
 	if (pstmt != null)
