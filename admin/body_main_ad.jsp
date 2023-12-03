@@ -3,7 +3,7 @@
 <%@ page import="dto.Product"%>
 <%@ page import="dao.ProductRepository"%>
 
-<%! String greeting = "현재 페이지는 롯데 메인홈페이지 입니다.";
+<%! String greeting = "현재 페이지는 히어로즈 오브 더 스톰 메인 홈페이지 입니다.";
 	String tagline = "하단 페이지 : 확인";%>
 
     <div class="container">
@@ -32,7 +32,7 @@
                     <img src="../image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                     
 					<div class="card-img-overlay">
-                    <h5 class="card-title">빼빼로 사진 이미지 샘플</h5>
+                    <h5 class="card-title">스킨 사진 이미지 샘플</h5>
                     <p class="card-text">출처 : 구글 검색</p>
                     </div>
                 </div>

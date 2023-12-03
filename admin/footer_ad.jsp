@@ -3,7 +3,7 @@
 <%@ page import = "java.util.Date"%>
 
 	<footer class="container">
-		<p>&copy; 오리온 스위트몰 관리자 페이지</p>
+		<p>&copy; 히어로즈 오브 더 스톰 관리자 페이지</p>
 	<%
         Date day = new java.util.Date();
         String am_pm;

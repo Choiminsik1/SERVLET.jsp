@@ -53,7 +53,7 @@ public class ProductRepository{
         cookie_pepero.setCondition("New"); // 신상품, 중고품, 재생품
     	cookie_pepero.setFilename("P1246.jpg"); // 가져올 파일 이름
         
-    	Product crunky_pepero = new Product("P1247", "크런키 빼빼로", 1400); // 생성자를 통해 상품 객체 생성
+    	Product crunky_pepero = new Product("P1247", "", 1400); // 생성자를 통해 상품 객체 생성
     	crunky_pepero.setDescription("크런키와 빼빼로의 운명적 만남"); // 상품 설명
     	crunky_pepero.setCategory("collaborationSnack"); // 상품 분류
         crunky_pepero.setManufacturer("롯데스위트"); // 제조사

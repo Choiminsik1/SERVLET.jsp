@@ -6,10 +6,10 @@
     		카테고리
   		</button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">시즌1빼빼로</a>
-            <a class="dropdown-item" href="#">시즌2빼빼로</a>
-            <a class="dropdown-item" href="#">시즌3빼빼로</a>
-            <a class="dropdown-item" href="#">시즌4빼빼로</a>
+            <a class="dropdown-item" href="#">시즌1스킨</a>
+            <a class="dropdown-item" href="#">시즌2스킨</a>
+            <a class="dropdown-item" href="#">시즌3스킨</a>
+            <a class="dropdown-item" href="#">시즌4스킨</a>
 
         </div>
 	</div>
