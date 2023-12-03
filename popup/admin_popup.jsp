@@ -1,7 +1,7 @@
 <%@ page contentType = "text/html;charset=utf-8" %>
 <html>
     <head>
-        <title>롯데제과 빼빼로몰 관리자모드</title>
+        <title>히어로즈 오브 더 스톰 관리자모드</title>
         <body>
        	 	<h4>
             관리자 페이지에 온 것을 환영합니다.
