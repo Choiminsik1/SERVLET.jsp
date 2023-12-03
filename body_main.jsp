@@ -3,7 +3,7 @@
 <%@ page import="dto.Product"%>
 <%@ page import="dao.ProductRepository"%>
 
-<%! String greeting = "현재 페이지는 오리온 메인홈페이지 입니다.";
+<%! String greeting = "현재 페이지는 히어로즈 오브 더 스톰 메인 홈페이지 입니다.";
 	String tagline = "하단 페이지 : 확인";%>
 
     <div class="container">
