@@ -13,7 +13,7 @@ public class ProductRepository{
 
 
     public ProductRepository(){
-        Product original_pepero = new Product("P1242", "메카 스톰 세트", 1000); // 생성자를 통해 상품 객체 생성
+        Product original_pepero = new Product("P1242", "메카 티리엘 세트", 1000); // 생성자를 통해 상품 객체 생성
     	original_pepero.setDescription("메카 티리엘 스킨 3종 + 티리엘의 군마 탈것 "); // 상품 설명
     	original_pepero.setCategory("Skin"); // 상품 분류
         original_pepero.setManufacturer("블리자드"); // 제조사
@@ -53,37 +53,37 @@ public class ProductRepository{
         cookie_pepero.setCondition("New"); // 신상품, 중고품, 재생품
     	cookie_pepero.setFilename("P1246.jpg"); // 가져올 파일 이름
         
-    	Product crunky_pepero = new Product("P1247", "", 1400); // 생성자를 통해 상품 객체 생성
-    	crunky_pepero.setDescription("크런키와 빼빼로의 운명적 만남"); // 상품 설명
-    	crunky_pepero.setCategory("collaborationSnack"); // 상품 분류
-        crunky_pepero.setManufacturer("롯데스위트"); // 제조사
-        crunky_pepero.setUnitsInStock(150); // 재고수
+    	Product crunky_pepero = new Product("P1247", "천사 디아블로 세트", 1000); // 생성자를 통해 상품 객체 생성
+    	crunky_pepero.setDescription("디아블로 스킨 3종"); // 상품 설명
+    	crunky_pepero.setCategory("Skin"); // 상품 분류
+        crunky_pepero.setManufacturer("블리자드"); // 제조사
+        crunky_pepero.setUnitsInStock(1000); // 재고수
         crunky_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	crunky_pepero.setFilename("P1247.jpg"); // 가져올 파일 이름
+    	crunky_pepero.setFilename("P1247.jpg?v=1"); // 가져올 파일 이름
         
-        Product melon_pepero = new Product("P1248", "메론 빼빼로", 1900); // 생성자를 통해 상품 객체 생성
-    	melon_pepero.setDescription("국민 음악앱 melon과 협업한 작품"); // 상품 설명
-    	melon_pepero.setCategory("frultSnack"); // 상품 분류
-        melon_pepero.setManufacturer("롯데스위트"); // 제조사
+        Product melon_pepero = new Product("P1248", "칼데움 카라짐 세트", 1900); // 생성자를 통해 상품 객체 생성
+    	melon_pepero.setDescription("칼데움 카라짐 스킨 3종"); // 상품 설명
+    	melon_pepero.setCategory("Skin"); // 상품 분류
+        melon_pepero.setManufacturer("블리자드"); // 제조사
         melon_pepero.setUnitsInStock(320); // 재고수
         melon_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	melon_pepero.setFilename("P1248.jpg"); // 가져올 파일 이름
+    	melon_pepero.setFilename("P1248.jpg?v=1"); // 가져올 파일 이름
         
-       	Product chocolate_cookie_pepero = new Product("P1249", "초코 쿠키 빼빼로", 1600); // 생성자를 통해 상품 객체 생성
-    	chocolate_cookie_pepero.setDescription("이번에는 초코와 쿠키가 만났다!"); // 상품 설명
-    	chocolate_cookie_pepero.setCategory("cookieSnack"); // 상품 분류
-        chocolate_cookie_pepero.setManufacturer("롯데스위트"); // 제조사
+       	Product chocolate_cookie_pepero = new Product("P1249", "대여사제 마이에브 세트", 1600); // 생성자를 통해 상품 객체 생성
+    	chocolate_cookie_pepero.setDescription("대여사제 마이에브 스킨 3종"); // 상품 설명
+    	chocolate_cookie_pepero.setCategory("Skin"); // 상품 분류
+        chocolate_cookie_pepero.setManufacturer("블리자드"); // 제조사
         chocolate_cookie_pepero.setUnitsInStock(170); // 재고수
         chocolate_cookie_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	chocolate_cookie_pepero.setFilename("P1249.jfif"); // 가져올 파일 이름
+    	chocolate_cookie_pepero.setFilename("P1249.jpg?v=1"); // 가져올 파일 이름
 
-        Product strawberry_pepero = new Product("P1250", "딸기 빼빼로", 2100); // 생성자를 통해 상품 객체 생성
-    	strawberry_pepero.setDescription("상큼한 딸기와의 만남"); // 상품 설명
-    	strawberry_pepero.setCategory("frultSnack"); // 상품 분류
-        strawberry_pepero.setManufacturer("롯데스위트"); // 제조사
+        Product strawberry_pepero = new Product("P1250", "파괴자 디바 세트", 2000); // 생성자를 통해 상품 객체 생성
+    	strawberry_pepero.setDescription("파괴자 디바 스킨 3종"); // 상품 설명
+    	strawberry_pepero.setCategory("Skin"); // 상품 분류
+        strawberry_pepero.setManufacturer("블리자드"); // 제조사
         strawberry_pepero.setUnitsInStock(40); // 재고수
         strawberry_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	strawberry_pepero.setFilename("P1250.jpg"); // 가져올 파일 이름
+    	strawberry_pepero.setFilename("P1250.jpg?v=1"); // 가져올 파일 이름
         
 		listOfProducts.add(original_pepero);
 		listOfProducts.add(amond_pepero);
