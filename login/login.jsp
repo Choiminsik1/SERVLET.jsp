@@ -20,7 +20,7 @@
         </div>
 	</div>
     <div>
-        <img src="image\Lotte_logo.jpg" class="img-fluid" alt="main_image" width="250" height="100" >
+        <img src="image\logo.jpg?v=1" class="img-fluid" alt="main_image" width="250" height="100" >
     </div>
 	<div class="container">
 		<div class="navbar-header">
