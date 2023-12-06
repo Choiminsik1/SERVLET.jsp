@@ -13,51 +13,64 @@ public class ProductRepository{
 
 
     public ProductRepository(){
+<<<<<<< HEAD
         Product original_pepero = new Product("P1242", "메카 티리엘 세트", 1000); // 생성자를 통해 상품 객체 생성
     	original_pepero.setDescription("메카 티리엘 스킨 3종 + 티리엘의 군마 탈것 "); // 상품 설명
+=======
+        Product original_pepero = new Product("P1242", "메카 티리엘", 1000); // 생성자를 통해 상품 객체 생성
+    	original_pepero.setDescription("메카 티리엘 스킨 3종 + 티리엘의 군마 탈것"); // 상품 설명
+>>>>>>> 4bb1cb7850faccd282f9517d1aa99b16b5c3e085
     	original_pepero.setCategory("Skin"); // 상품 분류
         original_pepero.setManufacturer("블리자드"); // 제조사
         original_pepero.setUnitsInStock(1000); // 재고수
         original_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	original_pepero.setFilename("P1242.jpg"); // 가져올 파일 이름
+    	original_pepero.setFilename("P1242.jpg?v=1"); // 가져올 파일 이름
         
-        Product amond_pepero = new Product("P1243", "메카 레가르 세트", 800); // 생성자를 통해 상품 객체 생성
+        Product amond_pepero = new Product("P1243", "메카 레가르", 900); // 생성자를 통해 상품 객체 생성
     	amond_pepero.setDescription("메카 레가르 스킨 3종"); // 상품 설명
     	amond_pepero.setCategory("Skin"); // 상품 분류
         amond_pepero.setManufacturer("블리자드"); // 제조사
         amond_pepero.setUnitsInStock(1000); // 재고수
         amond_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	amond_pepero.setFilename("P1243.jpg"); // 가져올 파일 이름
+    	amond_pepero.setFilename("P1243.jpg?v=1"); // 가져올 파일 이름
 
-        Product nude_pepero = new Product("P1244", "메카 아바투르 세트", 800); // 생성자를 통해 상품 객체 생성
+        Product nude_pepero = new Product("P1244", "메카 아바투르", 900); // 생성자를 통해 상품 객체 생성
     	nude_pepero.setDescription("메카 아바투르 스킨 3종"); // 상품 설명
     	nude_pepero.setCategory("Skin"); // 상품 분류
         nude_pepero.setManufacturer("블리자드"); // 제조사
         nude_pepero.setUnitsInStock(1000); // 재고수
         nude_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	nude_pepero.setFilename("P1244.jpg"); // 가져올 파일 이름
+    	nude_pepero.setFilename("P1244.jpg?v=1"); // 가져올 파일 이름
         
-        Product jeju_pepero = new Product("P1245", "할로윈 화이트메인 세트", 1000); // 생성자를 통해 상품 객체 생성
-    	jeju_pepero.setDescription("할로윈 화이트메인 3종"); // 상품 설명
+        Product jeju_pepero = new Product("P1245", "청소왕 레오릭 ", 1200); // 생성자를 통해 상품 객체 생성
+    	jeju_pepero.setDescription("청소왕 레오릭 스킨 3종"); // 상품 설명
     	jeju_pepero.setCategory("Skin"); // 상품 분류
         jeju_pepero.setManufacturer("블리자드"); // 제조사
         jeju_pepero.setUnitsInStock(1000); // 재고수
         jeju_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	jeju_pepero.setFilename("P1245.jpg"); // 가져올 파일 이름
+    	jeju_pepero.setFilename("P1245.jpg?v=1"); // 가져올 파일 이름
         
-        Product cookie_pepero = new Product("P1246", "청소왕 레오릭 세트", 1200); // 생성자를 통해 상품 객체 생성
-    	cookie_pepero.setDescription("청소왕 레오릭 스킨 3종 + 비누 탈것"); // 상품 설명
-    	cookie_pepero.setCategory("Skin"); // 상품 분류
-        cookie_pepero.setManufacturer("블리자드"); // 제조사
+        Product cookie_pepero = new Product("P1246", "쿠키 앤 크림 빼빼로", 1600); // 생성자를 통해 상품 객체 생성
+    	cookie_pepero.setDescription("쿠키가 크림에 퐁당!"); // 상품 설명
+    	cookie_pepero.setCategory("cookieSnack"); // 상품 분류
+        cookie_pepero.setManufacturer("롯데스위트"); // 제조사
         cookie_pepero.setUnitsInStock(3000); // 재고수
         cookie_pepero.setCondition("New"); // 신상품, 중고품, 재생품
-    	cookie_pepero.setFilename("P1246.jpg"); // 가져올 파일 이름
+    	cookie_pepero.setFilename("P1246.jpg?v=1"); // 가져올 파일 이름
         
+<<<<<<< HEAD
     	Product crunky_pepero = new Product("P1247", "천사 디아블로 세트", 1000); // 생성자를 통해 상품 객체 생성
     	crunky_pepero.setDescription("디아블로 스킨 3종"); // 상품 설명
     	crunky_pepero.setCategory("Skin"); // 상품 분류
         crunky_pepero.setManufacturer("블리자드"); // 제조사
         crunky_pepero.setUnitsInStock(1000); // 재고수
+=======
+    	Product crunky_pepero = new Product("P1247", "크런키 빼빼로", 1400); // 생성자를 통해 상품 객체 생성
+    	crunky_pepero.setDescription("크런키와 빼빼로의 운명적 만남"); // 상품 설명
+    	crunky_pepero.setCategory("collaborationSnack"); // 상품 분류
+        crunky_pepero.setManufacturer("롯데스위트"); // 제조사
+        crunky_pepero.setUnitsInStock(150); // 재고수
+>>>>>>> 4bb1cb7850faccd282f9517d1aa99b16b5c3e085
         crunky_pepero.setCondition("New"); // 신상품, 중고품, 재생품
     	crunky_pepero.setFilename("P1247.jpg?v=1"); // 가져올 파일 이름
         
