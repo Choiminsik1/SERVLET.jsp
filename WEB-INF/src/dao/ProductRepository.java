@@ -38,19 +38,19 @@ public class ProductRepository{
         nude_pepero.setCondition("New"); // 신상품, 중고품, 재생품
     	nude_pepero.setFilename("P1244.jpg?v=1"); // 가져올 파일 이름
         
-        Product jeju_pepero = new Product("P1245", "청소왕 레오릭 ", 1200); // 생성자를 통해 상품 객체 생성
-    	jeju_pepero.setDescription("청소왕 레오릭 스킨 3종"); // 상품 설명
+        Product jeju_pepero = new Product("P1245", "할로윈 화이트메인 세트 ", 1200); // 생성자를 통해 상품 객체 생성
+    	jeju_pepero.setDescription("할로윈 화이트메인 스킨 3종"); // 상품 설명
     	jeju_pepero.setCategory("Skin"); // 상품 분류
         jeju_pepero.setManufacturer("블리자드"); // 제조사
         jeju_pepero.setUnitsInStock(1000); // 재고수
         jeju_pepero.setCondition("New"); // 신상품, 중고품, 재생품
     	jeju_pepero.setFilename("P1245.jpg?v=1"); // 가져올 파일 이름
         
-        Product cookie_pepero = new Product("P1246", "쿠키 앤 크림 빼빼로", 1600); // 생성자를 통해 상품 객체 생성
-    	cookie_pepero.setDescription("쿠키가 크림에 퐁당!"); // 상품 설명
-    	cookie_pepero.setCategory("cookieSnack"); // 상품 분류
-        cookie_pepero.setManufacturer("롯데스위트"); // 제조사
-        cookie_pepero.setUnitsInStock(3000); // 재고수
+        Product cookie_pepero = new Product("P1246", "청소왕 레오릭 세트", 1600); // 생성자를 통해 상품 객체 생성
+    	cookie_pepero.setDescription("청소왕 레오릭 스킨 3종"); // 상품 설명
+    	cookie_pepero.setCategory("Skin"); // 상품 분류
+        cookie_pepero.setManufacturer("블리자드"); // 제조사
+        cookie_pepero.setUnitsInStock(1000); // 재고수
         cookie_pepero.setCondition("New"); // 신상품, 중고품, 재생품
     	cookie_pepero.setFilename("P1246.jpg?v=1"); // 가져올 파일 이름
         
