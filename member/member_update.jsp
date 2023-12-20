@@ -41,7 +41,7 @@
                 Class.forName("com.mysql.jdbc.Driver");
                 String jdbcUrl = "jdbc:mysql://localhost/ggouppang_20221076";
                 String dbUser = "root";
-                String dbPassword = "0324";
+                String dbPassword = "123123";
 
                 conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword);
 

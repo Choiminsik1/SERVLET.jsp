@@ -8,35 +8,35 @@
 
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        String jdbcUrl = "jdbc:mysql://localhost/ggouppang_20221076";
+        String jdbcUrl = "jdbc:mysql://localhost/ggouppang_학번";
         String dbUser = "root";
-        String dbPassword = "0324";
+        String dbPassword = "123123";
 
         conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword);
 
-        String j_ID = request.getParameter("j_ID");
-        String j_Password = request.getParameter("j_Password");
-        String j_Name = request.getParameter("j_Name");
-        String j_Gender = request.getParameter("j_Gender");
-        String j_Birth = request.getParameter("j_Birth");
-        String j_Email = request.getParameter("j_Email");
-        String j_Phone = request.getParameter("j_phone");
-        String j_Address = request.getParameter("j_Address");
+        String ID = request.getParameter("ID");
+        String Password = request.getParameter("Password");
+        String Name = request.getParameter("Name");
+        String Gender = request.getParameter("Gender");
+        String Birth = request.getParameter("Birth");
+        String Email = request.getParameter("Email");
+        String Phone = request.getParameter("Phone");
+        String Address = request.getParameter("Address");
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String regist_day = sdf.format(new java.util.Date());
 
-        String insertQuery = "INSERT INTO member VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
-        pstmt = conn.prepareStatement(insertQuery);
-        pstmt.setString(1, j_ID);
-        pstmt.setString(2, j_Password);
-        pstmt.setString(3, j_Name);
-        pstmt.setString(4, j_Gender);
-        pstmt.setString(5, j_Birth);
-        pstmt.setString(6, j_Email);
-        pstmt.setString(7, j_Phone);
-        pstmt.setString(8, j_Address);
-        pstmt.setString(9, regist_day);
+        String insertQuery = "INSERT INTO member (ID, Password, Name, Gender, Birth, Email, Phone, Address, regist_day) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+  pstmt.setString(1, request.getParameter("ID"));
+pstmt.setString(2, request.getParameter("Password"));
+pstmt.setString(3, request.getParameter("Name"));
+pstmt.setString(4, request.getParameter("Gender"));
+pstmt.setString(5, request.getParameter("Birth"));
+pstmt.setString(6, request.getParameter("Email"));
+pstmt.setString(7, request.getParameter("Phone"));
+pstmt.setString(8, request.getParameter("Address"));
+pstmt.setString(9, regist_day);
+
 
         int result = pstmt.executeUpdate();
 
@@ -51,11 +51,6 @@
         e.printStackTrace();
         out.println("<div class='alert alert-danger'>");
         out.println("데이터베이스 연결 오류: " + e.getMessage());
-        out.println("</div>");
-    } catch (SQLException e) {
-        e.printStackTrace();
-        out.println("<div class='alert alert-danger'>");
-        out.println("데이터베이스 오류: " + e.getMessage());
         out.println("</div>");
     } finally {
         try {

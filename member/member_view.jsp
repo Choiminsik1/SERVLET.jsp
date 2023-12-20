@@ -7,28 +7,27 @@
     <title>회원 목록</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-.navbar-brand {
-  color: white; /* 텍스트 색상을 흰색으로 설정 */
-  padding: 10px; /* 선택적으로 여백(padding)을 추가할 수 있습니다. */
-  font-weight: bold; /* 굵은 텍스트를 적용 */
-}
-
-</style>
-    </head>
+        .navbar-brand {
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
 <body>
     <div class="container">
         <h1><strong>회원 목록</strong></h1>
         <table class="table">
             <thead>
                 <tr>
-                    <th>j_ID</th>
-                    <th>j_Password</th>
-                    <th>j_Name</th>
-                    <th>j_Gender</th>
-                    <th>j_Birth</th>
-                    <th>j_Email</th>
-                    <th>j_Phone</th>
-                    <th>j_Address</th>
+                    <th>ID</th>
+                    <th>Password</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Birth</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
                     <th>regist_day</th>
                 </tr>
             </thead>
@@ -41,9 +40,9 @@
                     try {
                         // JDBC 연결 설정
                         Class.forName("com.mysql.jdbc.Driver");
-                        String jdbcUrl = "jdbc:mysql://localhost/ggouppang_20221076";
+                        String jdbcUrl = "jdbc:mysql://localhost/ggouppang_학번";
                         String dbUser = "root";
-                        String dbPassword = "0324";
+                        String dbPassword = "123123";
 
                         conn = DriverManager.getConnection(jdbcUrl, dbUser, dbPassword);
                         
@@ -55,14 +54,14 @@
                         // 결과를 HTML 테이블에 동적으로 추가
                         while (rs.next()) {
                             out.println("<tr>");
-                            out.println("<td>" + rs.getString("j_ID") + "</td>");
-                            out.println("<td>" + rs.getString("j_Password") + "</td>");
-                            out.println("<td>" + rs.getString("j_Name") + "</td>");
-                            out.println("<td>" + rs.getString("j_Gender") + "</td>");
-                            out.println("<td>" + rs.getString("j_Birth") + "</td>");
-                            out.println("<td>" + rs.getString("j_Email") + "</td>");
-                            out.println("<td>" + rs.getString("j_Phone") + "</td>");
-                            out.println("<td>" + rs.getString("j_Address") + "</td>");
+                            out.println("<td>" + rs.getString("ID") + "</td>");
+                            out.println("<td>" + rs.getString("Password") + "</td>");
+                            out.println("<td>" + rs.getString("Name") + "</td>");
+                            out.println("<td>" + rs.getString("Gender") + "</td>");
+                            out.println("<td>" + rs.getString("Birth") + "</td>");
+                            out.println("<td>" + rs.getString("Email") + "</td>");
+                            out.println("<td>" + rs.getString("Phone") + "</td>");
+                            out.println("<td>" + rs.getString("Address") + "</td>");
                             out.println("<td>" + rs.getString("regist_day") + "</td>");
                             out.println("</tr>");
                         }
